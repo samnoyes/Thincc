@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9E8514F21DDDC2F002F2647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8514E21DDDC2F002F2647 /* AppDelegate.swift */; };
+		F9E8515121DDDC2F002F2647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8515021DDDC2F002F2647 /* ViewController.swift */; };
+		F9E8515421DDDC2F002F2647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E8515221DDDC2F002F2647 /* Main.storyboard */; };
+		F9E8515721DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9E8515521DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld */; };
+		F9E8515921DDDC2F002F2647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E8515821DDDC2F002F2647 /* Assets.xcassets */; };
+		F9E8515C21DDDC2F002F2647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E8515A21DDDC2F002F2647 /* LaunchScreen.storyboard */; };
+		F9E8516721DDDC2F002F2647 /* NicotineQuitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8516621DDDC2F002F2647 /* NicotineQuitterTests.swift */; };
+		F9E8517221DDDC2F002F2647 /* NicotineQuitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8517121DDDC2F002F2647 /* NicotineQuitterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E8516321DDDC2F002F2647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E8514321DDDC2F002F2647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E8514A21DDDC2F002F2647;
+			remoteInfo = NicotineQuitter;
+		};
+		F9E8516E21DDDC2F002F2647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E8514321DDDC2F002F2647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E8514A21DDDC2F002F2647;
+			remoteInfo = NicotineQuitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9E8514B21DDDC2F002F2647 /* NicotineQuitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicotineQuitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E8514E21DDDC2F002F2647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9E8515021DDDC2F002F2647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9E8515321DDDC2F002F2647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9E8515621DDDC2F002F2647 /* NicotineQuitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NicotineQuitter.xcdatamodel; sourceTree = "<group>"; };
+		F9E8515821DDDC2F002F2647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9E8515B21DDDC2F002F2647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9E8515D21DDDC2F002F2647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E8516221DDDC2F002F2647 /* NicotineQuitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicotineQuitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E8516621DDDC2F002F2647 /* NicotineQuitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicotineQuitterTests.swift; sourceTree = "<group>"; };
+		F9E8516821DDDC2F002F2647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E8516D21DDDC2F002F2647 /* NicotineQuitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicotineQuitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E8517121DDDC2F002F2647 /* NicotineQuitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicotineQuitterUITests.swift; sourceTree = "<group>"; };
+		F9E8517321DDDC2F002F2647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E8514821DDDC2F002F2647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8515F21DDDC2F002F2647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8516A21DDDC2F002F2647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E8514221DDDC2F002F2647 = {
+			isa = PBXGroup;
+			children = (
+				F9E8514D21DDDC2F002F2647 /* NicotineQuitter */,
+				F9E8516521DDDC2F002F2647 /* NicotineQuitterTests */,
+				F9E8517021DDDC2F002F2647 /* NicotineQuitterUITests */,
+				F9E8514C21DDDC2F002F2647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E8514C21DDDC2F002F2647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8514B21DDDC2F002F2647 /* NicotineQuitter.app */,
+				F9E8516221DDDC2F002F2647 /* NicotineQuitterTests.xctest */,
+				F9E8516D21DDDC2F002F2647 /* NicotineQuitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E8514D21DDDC2F002F2647 /* NicotineQuitter */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8514E21DDDC2F002F2647 /* AppDelegate.swift */,
+				F9E8515021DDDC2F002F2647 /* ViewController.swift */,
+				F9E8515221DDDC2F002F2647 /* Main.storyboard */,
+				F9E8515821DDDC2F002F2647 /* Assets.xcassets */,
+				F9E8515A21DDDC2F002F2647 /* LaunchScreen.storyboard */,
+				F9E8515D21DDDC2F002F2647 /* Info.plist */,
+				F9E8515521DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld */,
+			);
+			path = NicotineQuitter;
+			sourceTree = "<group>";
+		};
+		F9E8516521DDDC2F002F2647 /* NicotineQuitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8516621DDDC2F002F2647 /* NicotineQuitterTests.swift */,
+				F9E8516821DDDC2F002F2647 /* Info.plist */,
+			);
+			path = NicotineQuitterTests;
+			sourceTree = "<group>";
+		};
+		F9E8517021DDDC2F002F2647 /* NicotineQuitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8517121DDDC2F002F2647 /* NicotineQuitterUITests.swift */,
+				F9E8517321DDDC2F002F2647 /* Info.plist */,
+			);
+			path = NicotineQuitterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E8514A21DDDC2F002F2647 /* NicotineQuitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E8517621DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitter" */;
+			buildPhases = (
+				F9E8514721DDDC2F002F2647 /* Sources */,
+				F9E8514821DDDC2F002F2647 /* Frameworks */,
+				F9E8514921DDDC2F002F2647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicotineQuitter;
+			productName = NicotineQuitter;
+			productReference = F9E8514B21DDDC2F002F2647 /* NicotineQuitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E8516121DDDC2F002F2647 /* NicotineQuitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E8517921DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitterTests" */;
+			buildPhases = (
+				F9E8515E21DDDC2F002F2647 /* Sources */,
+				F9E8515F21DDDC2F002F2647 /* Frameworks */,
+				F9E8516021DDDC2F002F2647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E8516421DDDC2F002F2647 /* PBXTargetDependency */,
+			);
+			name = NicotineQuitterTests;
+			productName = NicotineQuitterTests;
+			productReference = F9E8516221DDDC2F002F2647 /* NicotineQuitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9E8516C21DDDC2F002F2647 /* NicotineQuitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E8517C21DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitterUITests" */;
+			buildPhases = (
+				F9E8516921DDDC2F002F2647 /* Sources */,
+				F9E8516A21DDDC2F002F2647 /* Frameworks */,
+				F9E8516B21DDDC2F002F2647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E8516F21DDDC2F002F2647 /* PBXTargetDependency */,
+			);
+			name = NicotineQuitterUITests;
+			productName = NicotineQuitterUITests;
+			productReference = F9E8516D21DDDC2F002F2647 /* NicotineQuitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E8514321DDDC2F002F2647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PetersYuki;
+				TargetAttributes = {
+					F9E8514A21DDDC2F002F2647 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F9E8516121DDDC2F002F2647 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F9E8514A21DDDC2F002F2647;
+					};
+					F9E8516C21DDDC2F002F2647 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F9E8514A21DDDC2F002F2647;
+					};
+				};
+			};
+			buildConfigurationList = F9E8514621DDDC2F002F2647 /* Build configuration list for PBXProject "NicotineQuitter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E8514221DDDC2F002F2647;
+			productRefGroup = F9E8514C21DDDC2F002F2647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E8514A21DDDC2F002F2647 /* NicotineQuitter */,
+				F9E8516121DDDC2F002F2647 /* NicotineQuitterTests */,
+				F9E8516C21DDDC2F002F2647 /* NicotineQuitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E8514921DDDC2F002F2647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E8515C21DDDC2F002F2647 /* LaunchScreen.storyboard in Resources */,
+				F9E8515921DDDC2F002F2647 /* Assets.xcassets in Resources */,
+				F9E8515421DDDC2F002F2647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8516021DDDC2F002F2647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8516B21DDDC2F002F2647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E8514721DDDC2F002F2647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E8515121DDDC2F002F2647 /* ViewController.swift in Sources */,
+				F9E8514F21DDDC2F002F2647 /* AppDelegate.swift in Sources */,
+				F9E8515721DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8515E21DDDC2F002F2647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E8516721DDDC2F002F2647 /* NicotineQuitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8516921DDDC2F002F2647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E8517221DDDC2F002F2647 /* NicotineQuitterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E8516421DDDC2F002F2647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E8514A21DDDC2F002F2647 /* NicotineQuitter */;
+			targetProxy = F9E8516321DDDC2F002F2647 /* PBXContainerItemProxy */;
+		};
+		F9E8516F21DDDC2F002F2647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E8514A21DDDC2F002F2647 /* NicotineQuitter */;
+			targetProxy = F9E8516E21DDDC2F002F2647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E8515221DDDC2F002F2647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E8515321DDDC2F002F2647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E8515A21DDDC2F002F2647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E8515B21DDDC2F002F2647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E8517421DDDC2F002F2647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9E8517521DDDC2F002F2647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E8517721DDDC2F002F2647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9E8517821DDDC2F002F2647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9E8517A21DDDC2F002F2647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicotineQuitter.app/NicotineQuitter";
+			};
+			name = Debug;
+		};
+		F9E8517B21DDDC2F002F2647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NicotineQuitter.app/NicotineQuitter";
+			};
+			name = Release;
+		};
+		F9E8517D21DDDC2F002F2647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NicotineQuitter;
+			};
+			name = Debug;
+		};
+		F9E8517E21DDDC2F002F2647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNMSY83D74;
+				INFOPLIST_FILE = NicotineQuitterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YukiPeters.NicotineQuitterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NicotineQuitter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E8514621DDDC2F002F2647 /* Build configuration list for PBXProject "NicotineQuitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E8517421DDDC2F002F2647 /* Debug */,
+				F9E8517521DDDC2F002F2647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E8517621DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E8517721DDDC2F002F2647 /* Debug */,
+				F9E8517821DDDC2F002F2647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E8517921DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E8517A21DDDC2F002F2647 /* Debug */,
+				F9E8517B21DDDC2F002F2647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E8517C21DDDC2F002F2647 /* Build configuration list for PBXNativeTarget "NicotineQuitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E8517D21DDDC2F002F2647 /* Debug */,
+				F9E8517E21DDDC2F002F2647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9E8515521DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9E8515621DDDC2F002F2647 /* NicotineQuitter.xcdatamodel */,
+			);
+			currentVersion = F9E8515621DDDC2F002F2647 /* NicotineQuitter.xcdatamodel */;
+			path = NicotineQuitter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9E8514321DDDC2F002F2647 /* Project object */;
+}
