@@ -15,6 +15,8 @@
 		F9E8515C21DDDC2F002F2647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E8515A21DDDC2F002F2647 /* LaunchScreen.storyboard */; };
 		F9E8516721DDDC2F002F2647 /* NicotineQuitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8516621DDDC2F002F2647 /* NicotineQuitterTests.swift */; };
 		F9E8517221DDDC2F002F2647 /* NicotineQuitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8517121DDDC2F002F2647 /* NicotineQuitterUITests.swift */; };
+		F9E8518021DDDD99002F2647 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8517F21DDDD99002F2647 /* SetUpViewController.swift */; };
+		F9E8518221DDDF6A002F2647 /* HitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8518121DDDF6A002F2647 /* HitsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F9E8514B21DDDC2F002F2647 /* NicotineQuitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicotineQuitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E8514E21DDDC2F002F2647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9E8515021DDDC2F002F2647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9E8515021DDDC2F002F2647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		F9E8515321DDDC2F002F2647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9E8515621DDDC2F002F2647 /* NicotineQuitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NicotineQuitter.xcdatamodel; sourceTree = "<group>"; };
 		F9E8515821DDDC2F002F2647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		F9E8516D21DDDC2F002F2647 /* NicotineQuitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicotineQuitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E8517121DDDC2F002F2647 /* NicotineQuitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicotineQuitterUITests.swift; sourceTree = "<group>"; };
 		F9E8517321DDDC2F002F2647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E8517F21DDDD99002F2647 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		F9E8518121DDDF6A002F2647 /* HitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				F9E8514E21DDDC2F002F2647 /* AppDelegate.swift */,
 				F9E8515021DDDC2F002F2647 /* ViewController.swift */,
 				F9E8515221DDDC2F002F2647 /* Main.storyboard */,
+				F9E8518121DDDF6A002F2647 /* HitsViewController.swift */,
 				F9E8515821DDDC2F002F2647 /* Assets.xcassets */,
 				F9E8515A21DDDC2F002F2647 /* LaunchScreen.storyboard */,
 				F9E8515D21DDDC2F002F2647 /* Info.plist */,
 				F9E8515521DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld */,
+				F9E8517F21DDDD99002F2647 /* SetUpViewController.swift */,
 			);
 			path = NicotineQuitter;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8518021DDDD99002F2647 /* SetUpViewController.swift in Sources */,
 				F9E8515121DDDC2F002F2647 /* ViewController.swift in Sources */,
 				F9E8514F21DDDC2F002F2647 /* AppDelegate.swift in Sources */,
 				F9E8515721DDDC2F002F2647 /* NicotineQuitter.xcdatamodeld in Sources */,
+				F9E8518221DDDF6A002F2647 /* HitsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RNMSY83D74;
 				INFOPLIST_FILE = NicotineQuitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RNMSY83D74;
 				INFOPLIST_FILE = NicotineQuitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
